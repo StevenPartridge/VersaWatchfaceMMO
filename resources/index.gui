@@ -1,0 +1,19 @@
+<svg class="background">
+  <svg>
+    <image id="hour0" href="nums/0.png" width="69" height="108" x="5" y="10" />
+    <image id="hour1" href="nums/0.png" width="69" height="108" x="69" y="10" />
+    <image id="colon" href="colon.png" width="25" height="108" x="133" y="10" />
+    <image id="minute0" href="nums/0.png" width="69" height="108" x="158" y="10" />
+    <image id="minute1" href="nums/0.png" width="69" height="108" x="227" y="10" />
+    <image id="ampm" href="am.png" width="36" height="15" x="247" y="120" />
+    <image id="dayofweek" href="days/mon.png" width="36" height="15" x="25" y="118" />
+    <image id="month" href="months/jun.png" width="36" height="20" x="69" y="118" />
+    <image id="day0" href="nums/0.png" width="15" height="15" x="111" y="120" />
+    <image id="day1" href="nums/9.png" width="15" height="15" x="124" y="120" />
+    <image id="hr-icon" href="icons/Constitution.png" width="50" height="50" x="20" y="150" />
+    <text id="hr-text" width="150" height="50" x="70" y="190" text-length="4" />
+    <image id="steps-icon" href="icons/Agility.png" width="50" height="50" x="20" y="210" />
+    <text id="steps-text" width="150" height="50" x="70" y="249" text-length="5" />
+  </svg>
+  <text id="date" />
+</svg>

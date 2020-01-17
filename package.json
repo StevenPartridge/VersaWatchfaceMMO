@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "363fe4e7-3314-4479-88ff-039259c6ad7a",
+    "appType": "clockface",
+    "appDisplayName": "MMOFace",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "MMOFace"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.0.1",
+    "@fitbit/sdk-cli": "^1.7.0"
+  }
+}
